@@ -1,0 +1,8 @@
+{
+  "name": "Market AI Predictor",
+  "description": "MAJNU Official Quantitative Options Vector Engine & High-Speed Market AI Predictor for NIFTY 50, SENSEX, and BANKEX.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}
