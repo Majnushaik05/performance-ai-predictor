@@ -2,11 +2,9 @@ import React, { useState, useMemo } from 'react';
 import { HeatmapStockItem, HeatmapSector, TerminalDashboard } from '../types';
 import { HEATMAP_STOCKS_DATA } from '../data/marketData';
 import {
-  Activity,
   TrendingUp,
   TrendingDown,
   Search,
-  Filter,
   BarChart3,
   Layers,
   ArrowUpRight,
@@ -14,9 +12,7 @@ import {
   Info,
   X,
   Zap,
-  Shield,
   RefreshCw,
-  ExternalLink,
   SlidersHorizontal,
 } from 'lucide-react';
 
@@ -29,7 +25,6 @@ interface MarketHeatmapProps {
 export const MarketHeatmap: React.FC<MarketHeatmapProps> = ({
   onNavigateDashboard,
   className = '',
-  isCompact = false,
 }) => {
   const [selectedSector, setSelectedSector] = useState<HeatmapSector>('All Sectors');
   const [sentimentFilter, setSentimentFilter] = useState<'ALL' | 'BULLISH' | 'BEARISH'>('ALL');
