@@ -3,7 +3,6 @@ import { ASSETS } from '../assets';
 import { MarketTrendTicker } from './MarketTrendTicker';
 import { StockIndexChart } from './StockIndexChart';
 import { BullBearVideoBackground } from './BullBearVideoBackground';
-import { MarketHeatmap } from './MarketHeatmap';
 import { TargetIndex, TerminalDashboard } from '../types';
 import {
   ArrowRight,
